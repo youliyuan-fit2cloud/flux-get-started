@@ -48,7 +48,7 @@ spec:
             protocol: TCP
         command:
           - ./podinfo
-          - --port=9898
+          - --port=9878
           - --port-metrics=9797
           - --grpc-port=9999
           - --grpc-service-name=podinfo
